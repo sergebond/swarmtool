@@ -15,7 +15,7 @@
    {pool_size, 3},
    {pool_max_overflow, 3},
    {ios_host, "eu-swarm-ws-re.betconstruct.com"},
-   {ios_port, 433}
+   {ios_port, 443}
   ]},
   {modules, []},
 

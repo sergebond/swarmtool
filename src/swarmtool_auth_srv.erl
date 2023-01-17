@@ -236,6 +236,7 @@ handle_continue(ws_open, #state{host = Host, port = Port, ws_open_timeout = Time
       reply_to => self(),
       keepalive => 5000
     },
+    protocols => [http],
     tls_handshake_timeout => 5000,
     tls_opts => [
       {verify, verify_none}
